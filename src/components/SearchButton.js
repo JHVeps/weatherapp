@@ -26,8 +26,6 @@ export const SearchButton = ({ onCityFound }) => {
         onCityFound({
           name: res.LocalizedName,
           key: res.Key,
-        }).catch((err) => {
-          console.log(err.message);
         });
 
         setCity("");
