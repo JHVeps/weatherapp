@@ -1,4 +1,4 @@
-export const apiKey = "KnDXMoh8O6xiTGfEpv7DyE9nh4VXQp16";
+export const apiKey = "";
 
 //Function to modify Day.Icon value so that it is always a two digit number
 export const fixValue = (num) => {
